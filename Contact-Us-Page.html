@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <style>
+            body {
+                background-image: url('plane-header1.jpg');
+                background-size: cover;
+            }
+            .form-container {
+                background-color: rgba(255, 255, 255, 0.8);
+                padding: 20px;
+                border-radius: 10px;
+                margin-top: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 form-container">
+                    <h2>Contact Us</h2>
+                    <p> Please send your message below. We will get back to you at the earliest! </p>
+                    <form role="form" method="post" id="reused_form">
+                        <div class="form-group">
+                            <label for="name"> Your Name:</label>
+                            <input type="text" class="form-control" id="name" name="name" required maxlength="50">
+                        </div>
+                        <div class="form-group">
+                            <label for="email"> Email:</label>
+                            <input type="email" class="form-control" id="email" name="email" required maxlength="50">
+                        </div>
+                        <div class="form-group">
+                            <label for="name"> Message:</label>
+                            <textarea class="form-control" type="textarea" name="message" id="message" placeholder="Your Message Here" maxlength="6000" rows="7"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-lg btn-success btn-block">Post It! </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
+    
